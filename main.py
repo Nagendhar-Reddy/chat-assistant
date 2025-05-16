@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 # Pydantic model for request body
 class QuestionRequest(BaseModel):
